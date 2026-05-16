@@ -9,54 +9,148 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div>
+    <header class="encabesado">
+        <div class="logo">
             <img src="#" alt="logo empresa">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">categorias</a></li>
-                <li><a href="#">marcas</a></li>
-                <li><a href="#">contactos</a></li>
+        <nav class="menu-nave">
+            <ul class="menu-navegacion">
+                <li class="lista-navegacion"><a href="#">inicio</a></li>
+                <li class="lista-navegacion"><a href="#">categorias</a></li>
+                <li class="lista-navegacion"><a href="#">marcas</a></li>
+                <li class="lista-navegacion"><a href="#">contactos</a></li>
             </ul>
         </nav>
         <div class="carro-inicio-secion">
-            <ul>
-                <li><a href="#">inicio de secion </a></li>
-                <li><a href="#">carro de compra</a></li>
+            <ul class="menu-carro-inicio-secion">
+                <li class="lista-carro-inicio-secion"><a href="#">inicio de secion </a></li>
+                <li class="lista-carro-inicio-secion"><a href="#">carro de compra</a></li>
             </ul>
         </div>
     </header>
     <main class="cuerpo">
         <section class="carusel">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="../imagenes/esika.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="../imagenes/cyzone.png" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
+                        <img src="../imagenes/lbel.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../imagenes/avon.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagenes/natura.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagenes/romance.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button"     data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <!--section card de prodductos -->
-            <section class="productos">
+        </section>
+        <section class="productos" id="productos">
+            <div class="primera-fila">
                 <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <spam class="card-text">precio: $100</spam>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
                     </div>
                 </div>
-            </section>
-        </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+            </div>
+            <div class="segunda-fila">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                        <span class="precio"> $10000</span>
+                        <button class="btn">agregar al carro</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class=""></div>
+        <div class="contactos">
+            <p>Correo Electronico: </p>
+            <p class="whatsApp">WatsApp: </p>
+        </div>
+        <div class="redessociales">
+            <p class="redessociales">facebook: </p>
+            <p class="redessociales">instagram: </p>
+        </div>
+    </footer>
     <script src="../js/script.js"></script>
 </body>
 </html>
